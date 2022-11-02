@@ -7,7 +7,7 @@ function Header() {
             <span className='haedertitlesm'>College of Engineering, Trivandrum</span>
             <span className="headertitlelg">Department of Computer Applications</span>
         </div>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw41ZehMJe8kBbIx6HTSakfaGn73lA4vo94Q&usqp=CAU" alt="" className="headerImg" />
+        <img src="https://ca.cet.ac.in/wp-content/uploads/edit3-min.jpg" alt="" className="headerImg" />
     </div>
   )
 }

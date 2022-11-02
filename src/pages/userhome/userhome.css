@@ -1,0 +1,34 @@
+.userHome{
+    
+}
+.uhomeHeader{
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://ca.cet.ac.in/wp-content/uploads/edit3-min.jpg");
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.searchbar{
+    padding: 300px 400px ;
+    display: flex;
+    
+}
+input{
+    width: 500px;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+}
+.searchIcon{
+    font-size: 20px;
+    margin: 5px;
+}
+.clg_name{
+    position: absolute;
+    right:60px;
+    bottom: 20px;
+}

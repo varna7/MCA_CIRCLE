@@ -1,0 +1,7 @@
+.home{
+    display: flex;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}

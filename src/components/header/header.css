@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Lora", serif;
 }
 .headertitlesm{
     position: absolute;
@@ -14,11 +15,14 @@
 }
 .headertitlelg{
     position: absolute;
-    font-size:50px ;
+    font-size:40px ;
     top: 20%;
     justify-content: center;
+    color: rgb(213, 227, 237);
 }
 .headerImg{
     width: 100%;
     height: 450px;
+    margin-top: 14 px;
+    object-fit: cover;
 }

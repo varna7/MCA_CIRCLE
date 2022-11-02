@@ -1,0 +1,97 @@
+.request{
+    width: 70%;
+    margin: 0px 25px 40px 25px;
+}
+.college{
+    display: flex;
+    flex-direction: row;
+
+}
+.leftItem{
+    flex:9
+}
+.rightItem{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+	
+}
+.collegeLogo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.collegeName{
+    font-size: 20px;
+    font-family: "Lora", serif;
+}
+.accept{
+    box-shadow: 0px 10px 14px -7px #37d60b;
+	background:linear-gradient(to bottom, #18de4d 5%, #73ee31 100%);
+	background-color:#18de4d;
+    border: none;
+	border-radius:8px;
+	cursor:pointer;
+	color:#e5f5e9;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin: 10px;
+}
+.accept:hover{
+    background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+	background-color:#5cb811;
+}
+.accept:active{
+    position:relative;
+	top:1px;
+}
+.view {
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:8px;
+	border:none;
+	cursor:pointer;
+	color:#fbfbfb;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+	margin: 10px;
+}
+.view:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.view:active {
+	position:relative;
+	top:1px;
+}
+
+.delete{
+    box-shadow: 0px 10px 14px -7px #d92525;
+	background:linear-gradient(to bottom, #de1818 5%, #753838 100%);
+	background-color:#de1818;
+    border: none;
+	border-radius:8px;
+	cursor:pointer;
+	color:#f9ebeb;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #66282d;
+    margin: 10px;
+}
+.delete:hover{
+    background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#ce0100; 
+}

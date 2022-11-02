@@ -1,0 +1,29 @@
+.addpost{
+    width: 385px;
+    margin: 0px 25px 40px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+}
+
+.addIcon{
+    border: 3px solid rgb(193, 192, 192);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    color: rgb(180, 178, 178);
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.addpostText{
+    font-size: 30px;
+    color: rgb(177, 174, 174);
+    margin-top: 30px;
+}

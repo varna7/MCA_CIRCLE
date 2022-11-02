@@ -1,0 +1,19 @@
+.verify{
+    height: 100%;
+    width: 100%;
+    
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+
+}
+.verification{
+    border: none;
+    width: 80%;
+    margin-left: 125px;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(233, 235, 237);
+}

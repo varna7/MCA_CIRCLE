@@ -10,6 +10,16 @@ function Sidebar() {
             laudantium necessitatibus dolorem enim, nobis perspiciatis? Sint rerum cum voluptatem laborum.</p>
         </div>
         <div className="sidebaritem">
+          <span className="sidebarTitle">Mission</span>
+          <p className="sidebartext">Lorem ipsum dolor sit amet, consectetur quod  vitae illo odit 
+            laudantium necessitatibus dolorem enim, nobis perspiciatis? Sint rerum cum voluptatem laborum.</p>
+        </div>
+        <div className="sidebaritem">
+          <span className="sidebarTitle">Vision</span>
+          <p className="sidebartext">Lorem ipsum dolor sit amet, consectetur quod  vitae illo odit 
+            laudantium necessitatibus dolorem enim, nobis perspiciatis? Sint rerum cum voluptatem laborum.</p>
+        </div>
+        <div className="sidebaritem">
             <span className="sidebarTitle">CATEGORY</span>
             <ul className="sidebarlist">
                 <li className="listitem">Events</li>

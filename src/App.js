@@ -9,6 +9,7 @@ import Repregister from './pages/Rep_registration/Repregister';
 import UserHome from './pages/userhome/UserHome';
 import Single from './pages/single/Single';
 import { BrowserRouter as Router,Routes,Route,link } from 'react-router-dom';
+import Collegeview from './pages/Collegeview/Collegeview';
 
 
 
@@ -26,6 +27,8 @@ function App() {
         <Route path='/Verification' element={<Verification/>}/>
         <Route exact path='/' element={<UserHome/>}/>
         <Route exact path='/Single' element={<Single/>}/>
+        <Route exact path='/Collegeview' element={<Collegeview/>}/>
+
       </Routes>
     </Router>
     </>

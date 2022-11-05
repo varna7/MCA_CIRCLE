@@ -19,14 +19,7 @@ function SinglePost() {
           </div>
         </h1>
         <div className="singlePostInfo">
-          <span>
-            Author:
-            <b className="singlePostAuthor">
-              <Link className="link" to="/posts?username=Safak">
-                Safak
-              </Link>
-            </b>
-          </span>
+        
           <span>1 day ago</span>
         </div>
         <p className="singlePostDesc">

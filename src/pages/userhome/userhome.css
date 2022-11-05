@@ -1,5 +1,10 @@
 .userHome{
+    margin: 0px;
+}
+.uhomeTitle{
+    font-size: 30px;
     
+
 }
 .uhomeHeader{
     background: linear-gradient(
@@ -31,4 +36,16 @@ input:focus{
     position: absolute;
     right:60px;
     bottom: 20px;
+}
+.slidePosts{
+    width: 100%;
+    margin: 22px;
+    display: flex;
+}
+.slidetitle{
+    font-size: 20px;
+    font-family: "Lora", serif;
+    margin: 30px;
+    margin-top:30px ;
+
 }

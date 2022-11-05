@@ -1,0 +1,49 @@
+ 
+form{
+    margin:20px;
+    width: 100%;
+}
+h2{
+    
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.formItem{
+    width: 100%;
+}
+.formInput{
+    padding: 3px 3px;
+    width:100%;
+    border-bottom: 1px rounded;
+    outline: none;
+    position: relative;
+    text:gray 900;
+    color:gray 400;
+    margin-left: 40px;
+    margin-right: 60px;
+
+}
+.formInput:focus{
+    outline: none;
+}
+
+.formButton{
+    background: rgb(128, 128, 130) ;
+    color: white;
+    padding: 5px 20px;
+    position: relative;
+    margin-left: 40px;
+    border: none;
+    border-radius: 15px;
+}
+.formButton:hover,:active{
+    outline: none;
+}
+.msg1{
+    font-size: 24px;
+    margin-left:40px;
+}
+.msg2{
+    font-size: 18px;
+    margin-left: 40px;
+}

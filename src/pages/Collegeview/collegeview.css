@@ -1,3 +1,8 @@
 .collegeView{
     display: flex;
 }
+.left{
+    display: flex;
+    flex: 9;
+    flex-direction: column;
+}

@@ -1,7 +1,10 @@
 import './newpost.css'
+import Topbar from '../../components/topbar/Topbar'
 
 function Newpost() {
   return (
+    <>
+    <Topbar/>
     <div className='newpost'>
         <form action="" className="postform">
             <div className="postformgroup">
@@ -19,6 +22,7 @@ function Newpost() {
             <button className="postButton">submit</button>
         </form>
     </div>
+    </>
   )
 }
 

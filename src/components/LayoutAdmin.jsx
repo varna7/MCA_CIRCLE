@@ -3,12 +3,13 @@ import React from "react";
 import { NavSidebar } from "./NavSidebar";
 import BodyWrapper from "./BodyWrapper";
 import "../styles/main.bundle.css";
+import { NavSidebarAdmin } from "./NavSidebarAdmin";
 
-export const DashboardLayout = ({ children ,logo}) => {
+export const DashboardLayoutAdmin = ({ children ,logo}) => {
   return (
     <BodyWrapper>
       <div className="flex h-screen bg-gray-200">
-        <NavSidebar logo={logo} />
+        <NavSidebarAdmin logo={logo} />
 
         <div className="flex flex-col flex-1 overflow-hidden">
           <main className="content">

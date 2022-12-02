@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
 import { DashboardLayout } from "../components/Layout";
 import {db} from '../firebase-config';
-const college_id=window.localStorage.getItem('college_id');
 const BasicDetails = () => {
+  const college_id=window.localStorage.getItem('college_id');
 
  const [basicData, setBasicData] = useState({
  
@@ -17,7 +17,7 @@ const BasicDetails = () => {
     mode:"",
     infrastructure:{
       library:false,
-      projectlab:false,
+      projectLab:false,
       softLab:false,
       seminarHall:false,
       indoor:false,
@@ -152,7 +152,7 @@ setBasicData({...basicData,infrastructure:{
             id="disabledFieldsetCheck"
             label="Project Lab"
             onChange={e=>handleCheck("projectLab")}
-            checked={basicData.infrastructure.projectlab}
+            checked={basicData.infrastructure.projectLab}
           />
           <Form.Check
             type="checkbox"

@@ -3,7 +3,7 @@ import "./post.css";
 
 function Post(props) {
   return (
-    <div className="post">
+    <div className="post" onClick={props.onClick}>
       <img
         className="postImg"
         src={props.img}
@@ -12,9 +12,9 @@ function Post(props) {
       <div className="postInfo">
         <div className="postCats">
           <span className="postCat">
-            <Link className="link" to="/posts?cat=Placements">
+         
               {props.cat}
-            </Link>
+          
           </span>
         </div>
         <span className="postTitle">
@@ -23,7 +23,7 @@ function Post(props) {
           </Link>
         </span>
         <hr/>
-        <span className="postDate">1 hour ago</span>
+        <span className="postDate">{props.time}</span>
       </div>
     </div>
   );

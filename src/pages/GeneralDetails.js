@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
 import { DashboardLayout } from "../components/Layout";
 import {db} from '../firebase-config';
-const college_id=window.localStorage.getItem('college_id');
 const GeneralDetails = () => {
+  const college_id=window.localStorage.getItem('college_id');
 
  const [generalData, setGeneralData] = useState({
  
@@ -14,6 +14,7 @@ const GeneralDetails = () => {
     website:"",
     accr:"",
     university:"",
+    district:"",
     type:"",
     phone:""
 
@@ -90,6 +91,12 @@ const GeneralDetails = () => {
               <Form.Group className="mb-3" controlId="formBasicPassword">
                 <Form.Label>University</Form.Label>
                 <Form.Control type="text"  onChange={e=>handleChange(e,"university")} value={generalData.university} placeholder="Affliated University" />
+              </Form.Group>
+            </Col>
+            <Col>
+              <Form.Group className="mb-3" controlId="formBasicPassword">
+                <Form.Label>District</Form.Label>
+                <Form.Control type="text"  onChange={e=>handleChange(e,"district")} value={generalData.district} placeholder="District" />
               </Form.Group>
             </Col>
            

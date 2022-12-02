@@ -4,12 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(
-        rgba(255, 255, 255, 0.5),
-        rgba(255, 255, 255, 0.5)
-      ),
-      url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
-    background-size: cover;
+    
   }
   
   .loginTitle {
@@ -40,7 +35,7 @@
   .loginButton {
     margin-top: 20px;
     cursor: pointer;
-    background-color: lightcoral;
+    background-color: rgb(81, 100, 134);
     color: white;
     padding: 10px;
     border: none;
@@ -52,7 +47,7 @@
     position: absolute;
     top: 60px;
     right: 20px;
-    background-color: teal;
+    background-color: rgb(66, 93, 93);
     cursor: pointer;
     padding: 10px;
     border: none;

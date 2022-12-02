@@ -9,7 +9,7 @@ import React, { useState } from "react";
 import "react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css";
 import {app, auth} from "../firebase-config";
 
-export const NavSidebar = ({logo}) => {
+export const NavSidebarAdmin = ({logo}) => {
   const navigate = useNavigate();
   const location = useLocation();
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -46,10 +46,10 @@ export const NavSidebar = ({logo}) => {
           MCA Circle
           </span>
         </div>
-        <div className="settingsPP my-1 d-flex justify-content-center" >
+        {/* <div className="settingsPP my-1 d-flex justify-content-center" >
             
-        <img src={logo} alt="" className=" w-50"/>
-          </div>
+        <img src={logo} alt="" />
+          </div> */}
 
     
         <Navigation
@@ -60,38 +60,30 @@ export const NavSidebar = ({logo}) => {
           items={[
             {
               title: "Dashboard",
-              itemId: "/dashboard-college",
+              itemId: "/dashboard-admin",
               // Optional
               elemBefore: () => <Icon name="user" />
             },
             {
-              title: "Details",
+              title: "Colleges",
             //   itemId: "/college-details",
               elemBefore: () => <Icon name="coffee" />,
               subNav: [
                 {
-                  title: "Basic",
-                  itemId: "/details/basic",
+                  title: "View",
+                  itemId: "/admin-colleges/view",
                   // Optional
                   elemBefore: () => <Icon name="book" />
                 },
                 {
-                  title: "General",
-                  itemId: "/details/general",
+                  title: "Requests",
+                  itemId: "/admin-colleges/requests",
                   elemBefore: () => <Icon name="activity" />
                 },
-                {
-                  title: "Photos",
-                  itemId: "/details/photos",
-                  elemBefore: () => <Icon name="activity" />
-                }
+         
               ]
             },
-            {
-              title: "Posts",
-              itemId: "/college-post",
-              elemBefore: () => <Icon name="plus" />,
-            }
+
           ]}
         />
 

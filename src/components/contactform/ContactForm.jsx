@@ -21,48 +21,10 @@ const ContactForm = () => {
   }
 
   return (
-    <form
-      action={FORM_ENDPOINT}
-      onSubmit={handleSubmit}
-      method="POST"
-      target="_blank"
-    >
-      <h2>Contact Us</h2>
-      <div className="formItem">
-        <input
-          type="text"
-          placeholder="Your name"
-          name="name"
-          className="formInput"
-          required
-        />
-      </div>
-      <div className="formItem">
-        <input
-          type="email"
-          placeholder="Email"
-          name="email"
-          className="formInput"
-          required
-        />
-      </div>
-      <div className="formItem">
-        <textarea
-          placeholder="Your message"
-          name="message"
-          className="formInput"
-          required
-        />
-      </div>
-      <div className="formItem">
-        <button
-          className="formButton"
-          type="submit"
-        >
-          Send 
-        </button>
-      </div>
-    </form>
+<>
+
+          </>
+  
   );
 };
 

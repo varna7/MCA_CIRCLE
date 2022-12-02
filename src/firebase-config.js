@@ -5,6 +5,8 @@ import firebase from 'firebase/compat/app'
 // https://firebase.google.com/docs/web/setup#available-libraries
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth'
 import  "firebase/compat/firestore";
+import  "firebase/compat/auth";
+import  "firebase/compat/storage";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyD05ieFTz938qqvpTo7CYywUuaKTjAGYa4",
@@ -16,9 +18,10 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = firebase.initializeApp(firebaseConfig);
-export const auth=getAuth(app);
+export const app = firebase.initializeApp(firebaseConfig);
+export const auth=firebase.auth()
 
 
 export const db = firebase.firestore()
-export default  app;
+export const storage = firebase.storage()
+// export default  app;

@@ -1,13 +1,16 @@
 import './header.css'
 
-function Header() {
+function Header(props) {
+
+
+  
   return (
     <div className='header'>
         <div className="headertitle">
-            <span className='haedertitlesm'>College of Engineering, Trivandrum</span>
-            <span className="headertitlelg">Department of Computer Applications</span>
+            <span className='haedertitlesm my-2'>{props.name}</span>
+            <span className="headertitlelg my-5">Department of Computer Applications</span>
         </div>
-        <img src="https://ca.cet.ac.in/wp-content/uploads/edit3-min.jpg" alt="" className="headerImg" />
+        <img src={props.image} alt="" className="headerImg" />
     </div>
   )
 }

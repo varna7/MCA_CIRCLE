@@ -4,27 +4,28 @@ import { Button ,Row,Col} from 'react-bootstrap'
 import { DashboardLayout } from '../components/Layout'
 import './college.css'
 import { db } from '../firebase-config'
+import { DashboardLayoutAdmin } from '../components/LayoutAdmin'
 
-const College = () => {
+const AdminDashboard = () => {
 
   const [collegeData, setCollegeData] = useState({
 
   })
   const college_id=window.localStorage.getItem('college_id');
-  useEffect(() => {
-    db.collection("colleges").doc(college_id).get().then(doc=>{
-      console.log()
+  // useEffect(() => {
+  //   db.collection("colleges").doc(college_id).get().then(doc=>{
+  //     console.log()
 
-      if(doc.data()!=undefined)
-      setCollegeData(doc.data())
-    })
+  //     if(doc.data()!=undefined)
+  //     setCollegeData(doc.data())
+  //   })
  
-    return () => {
+  //   return () => {
       
-    }
-  }, [])
+  //   }
+  // }, [])
   return (
-  <DashboardLayout logo={collegeData?.logos}>
+  <DashboardLayoutAdmin logo={collegeData?.logos}>
     <h1 className="text-center my-4">{collegeData?.college_name}</h1>
     <div style={{justifyContent:"center",alignContent:"center",display:"flex",height:"60vh",padding:"20px"}}>
     <img src={collegeData?.cover}>
@@ -33,8 +34,8 @@ const College = () => {
     
     
 
-  </DashboardLayout>
+  </DashboardLayoutAdmin>
   )
 }
 
-export default College
+export default AdminDashboard

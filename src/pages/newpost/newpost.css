@@ -1,13 +1,14 @@
 .newpost{
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 .postform{
     position: relative;
 }
 .postformgroup{
-    margin-left: 150px;
+    margin-left: 20px;
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 .newIcon{
     width: 25px;
@@ -25,13 +26,13 @@
     font-size: 30px;
     border: none;
     padding: 20px;
-    width: 70vw;
+    width: auto;
 }
 .textInput:focus{
     outline: none;
 }
 .postformContent{
-    margin-left: 150px;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -39,7 +40,7 @@ textarea{
     font-size: 25px;
     border: none;
     padding: 20px;
-    width: 70vw;
+    width: auto;
 }
 textarea:focus{
     outline: none;

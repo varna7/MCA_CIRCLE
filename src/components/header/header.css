@@ -16,9 +16,9 @@
 .headertitlelg{
     position: absolute;
     font-size:40px ;
-    top: 20%;
+    
     justify-content: center;
-    color: rgb(213, 227, 237);
+    color: rgb(14, 14, 14);
 }
 .headerImg{
     width: 100%;

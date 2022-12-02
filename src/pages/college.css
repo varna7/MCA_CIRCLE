@@ -1,0 +1,14 @@
+.coverImg{
+    height: 250px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coverIcon{
+    font-size: 150px;
+    
+}
